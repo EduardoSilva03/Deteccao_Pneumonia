@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body, html, .registrar-container {
+    height: 100vh;
+    width: 100%;
+    background-color: #a3ccf9;
+}
+
+.registrar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registrar-header {
+    display: flex;
+    width: 80%;
+    height: 70%;
+    background-color: white;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.registrar-header .left {
+    width: 50%;
+    background-color: #1e82ff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 40px;
+    text-align: left;
+}
+
+.registrar-header .right {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.registrar-text {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.registrar-inputs {
+    width: 100%;
+}
+
+.registrar-input {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    margin-bottom: 20px;
+    padding: 12px 20px;
+    border-radius: 25px;
+}
+
+.registrar-input input {
+    border: none;
+    outline: none;
+    background: none;
+    margin-left: 10px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.registrar-input svg {
+    font-size: 1.2rem;
+}
+
+.registrar-submit {
+    display: flex;
+    justify-content: center;
+}
+
+.registrar-submit button {
+    background-color: #1e82ff;
+    color: white;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.registrar-submit button:hover {
+    background-color: #166cd5;
+}
