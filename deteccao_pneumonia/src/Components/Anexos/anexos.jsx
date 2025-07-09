@@ -55,7 +55,6 @@ const Anexos = () => {
         });
         setImagemHeatmap(`data:image/jpeg;base64,${data.imagem_heatmap}`);
 
-        // atualiza histórico
         setHistorico(prev => [...prev, { imagem_base64: data.imagem_heatmap }]);
       }
     } catch (err) {
